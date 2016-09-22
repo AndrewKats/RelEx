@@ -2,6 +2,8 @@
 
 Relation extraction built over Apache OpenNLP. This tool can be used to train and use a relation extraction model.
 
+The code is compatible with Apache OpenNLP 1.6.0
+
 Reations are defined between named entities, specifically, from a parent entity to a child entity. The named entities are specified using Span objects (opennlp.tools.util.Span) and the relation between two entities is defined using a String.
 
 # Training API
