@@ -1,4 +1,4 @@
-# RelEX
+# RelEx
 
 Relation extraction built over Apache OpenNLP. This tool can be used to train and use relation extraction models.
 
