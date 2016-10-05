@@ -24,7 +24,7 @@ Sample code
         GISModelWriter writer = new SuffixSensitiveGISModelWriter(model, new File(PATH_TO_OUTPUT_FILE));
         writer.persist();
 
-Note: positive and negative examples of relationships should be provided in the training data. The negative relations are to be ignored when returned by the eval method.
+Note: positive and negative examples of relationships should be provided in the training data. Negative relations returned by the eval method should be ignored.
 
 # RelEx API
 Use the RelExME class to find the relationship between two named entities.
