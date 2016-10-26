@@ -46,7 +46,7 @@ public class RelExSample
         return output;
     }
 
-    //method throes exception if the start and end for parent and child span are incorrect w.r.t. number of tokens
+    //method throws exception if the start and end for parent and child span are incorrect w.r.t. number of tokens
     private static void validateSampleData(Span parentSpan, Span childSpan, int numOfTokens)
     {
         if (parentSpan.getStart() >= numOfTokens)
